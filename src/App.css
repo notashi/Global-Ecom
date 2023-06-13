@@ -24,6 +24,20 @@
   color: white;
 }
 
+
+ #bgBC{
+  background-image: url('../public/Images/newstore.jpg');
+  background-repeat: no-repeat;
+    background-position: center center;
+   background-size:  cover; 
+  
+ 
+} 
+/* @media (max-width: 768px) {
+  #bgBC {
+    background-image: url('../public/Images/zero.jpg');
+  }
+} */
 .App-link {
   color: #61dafb;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSection from '../Newcomps/HeroSection';
 
-export const Products = () => {
+const Products = () => {
 
   const data ={
     name: "Product Details"

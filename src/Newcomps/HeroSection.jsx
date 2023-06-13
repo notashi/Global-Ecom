@@ -4,7 +4,7 @@ import { Button } from "../Newcomps/Button"
 
 const HeroSection = ({ myData}) => {
 
-    console.log(myData)
+    //console.log(myData)
   const { name , paragraph } = myData;
 
   return (
@@ -12,7 +12,7 @@ const HeroSection = ({ myData}) => {
       <div className="container">
         <div className="grid grid-two-column">
           <div className="hero-section-data">
-            <p className="intro-data">Welcome to Nike Store </p>
+            <p className="intro-data">Welcome to </p>
             <h1> {name} </h1>
             <p>
             {/* The world's largest athletic apparel company, Nike is best known for its footwear, apparel, and equipment. Founded in 1964 as Blue Ribbon Sports, the company became Nike in 1971 after the Greek goddess of victory. One of the most valuable brands among sport businesses, Nike employs over 76,000 people worldwide. */}
@@ -58,6 +58,7 @@ const Wrapper = styled.section`
 
     .intro-data {
       margin-bottom: 0;
+      
     }
   }
 

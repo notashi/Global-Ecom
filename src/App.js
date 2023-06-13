@@ -3,8 +3,8 @@ import './App.css';
 import {BrowserRouter as Router ,Routes, Route} from "react-router-dom";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import { Products } from "./Components/Products";
-import { SingleProduct } from "./Components/SingleProduct";
+import  Products  from "./Components/Products";
+import  SingleProduct  from "./Components/SingleProduct";
 import Cart from "./Components/Cart";
 import ErrorPage from "./Components/ErrorPage";
 import { GlobalStyle } from "./GlobalStyle";
@@ -25,6 +25,7 @@ const theme = {
     helper: "#8490ff",
 
     bg: "#F6F8FA",
+    //bg1: "black",
     footer_bg: "#0a1435",
     btn: "rgb(98 84 243)",
     border: "rgba(98, 84, 243, 0.5)",
@@ -42,7 +43,7 @@ const theme = {
 };
 
   return (
- 
+ <div className="w-full min-h-screen" id="bgBC">
     <ThemeProvider theme={theme}>
 <Router>
   <GlobalStyle/>
@@ -54,12 +55,12 @@ const theme = {
   <Route path="/contact" element={<Contact/>}/>
   <Route path="/singleproduct/:id" element={<SingleProduct/>}/>
   <Route path="/cart" element={<Cart/>}/>
-  
   <Route path="*" element={<ErrorPage/>}/>
 </Routes>
 <Footer/>
 </Router>
 </ThemeProvider>
+</div>
 
 )
   

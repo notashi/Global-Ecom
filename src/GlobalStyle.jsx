@@ -9,12 +9,6 @@ export const GlobalStyle = createGlobalStyle`
   font-family: "Work Sans", sans-serif;
 }
 
-#bgBC{
-  background-image: url("../public/Images/back.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size:  cover;
-}
 
 html {
   font-size: 62.5%;
@@ -102,6 +96,7 @@ ${"" /* resuable code section  */}
 
 .grid-two-column {
   grid-template-columns: repeat(2, 1fr);
+
 }
 
 .grid-three-column {
@@ -160,13 +155,6 @@ input, textarea{
     text-transform: uppercase;
     font-size: 1.8rem;
     cursor: pointer;
-    }
-    
-    #bgBC{
-      background-image: url("../public/Images/back.jpg");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size:  cover;
     }
 
 @media (max-width: ${({ theme }) => theme.media.tab}) {
