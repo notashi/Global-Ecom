@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from "styled-components"
 import { Button } from './Button';
@@ -40,8 +40,8 @@ const Footer = () => {
         <footer>
           <div className="container grid grid-four-column">
             <div className="footer-about">
-              <h3>Nike Officials</h3>
-              <p> JUST DO IT</p>
+              <h3>Store Officials</h3>
+              <p> JUST Shop IT</p>
             </div>
             <div className="footer-subscribe">
               <h3>Subscribe to get important updates</h3>
@@ -58,13 +58,13 @@ const Footer = () => {
                   <FaDiscord className="icons" />
                 </div>
                 <div>
-                  <a href='https://www.instagram.com/nike/?hl=en' target='_blank'>
+                  <a href='https://www.instagram.com/nike/?hl=en' target='_blank' rel="noreferrer">
                   <FaInstagram className="icons" /></a>
                 </div>
                 <div>
                   <a
                     href="https://www.youtube.com/user/NIKE"
-                    target="_blank">
+                    target="_blank"  rel="noreferrer" >
                     <FaYoutube className="icons" />
                   </a>
                 </div>
@@ -80,7 +80,7 @@ const Footer = () => {
             <hr />
             <div className="container grid grid-two-column ">
               <p>
-                @{new Date().getFullYear()} NIKE. All Rights Reserved
+                @{new Date().getFullYear()} Global Store. All Rights Reserved
               </p>
               <div>
                 <p>PRIVACY POLICY</p>

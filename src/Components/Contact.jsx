@@ -5,6 +5,10 @@ import styled from "styled-components"
 const Contact = () => {
 
   const Wrapper = styled.section`
+  h2{
+    color : white
+    
+  }
     padding: 9rem 0 5rem 0;
     text-align: center;
     .container {
@@ -52,6 +56,10 @@ const Contact = () => {
      name='username'
      required
      autoComplete='off'
+    //  onKeyUp={(event) => {
+    //   event.target.value = event.target.value.toLowerCase().toUpperCase();
+    // }}
+     
      />
     <input type="email" name="email" placeholder='Email required'
     required

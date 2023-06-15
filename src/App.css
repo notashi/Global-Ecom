@@ -25,14 +25,20 @@
 }
 
 
- #bgBC{
-  background-image: url('../public/Images/newstore.jpg');
+  #bgBC{
+  background-image: url('../public/Images/bg.jpg');
   background-repeat: no-repeat;
     background-position: center center;
    background-size:  cover; 
   
+ }
+ h3{
+  font-size: xx-large;
+  color: white;
+  text-align-last: center;
+ }
  
-} 
+ */
 /* @media (max-width: 768px) {
   #bgBC {
     background-image: url('../public/Images/zero.jpg');

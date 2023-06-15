@@ -1,3 +1,4 @@
+
 import HeroSection from "../Newcomps/HeroSection"
 import { useProductContext } from "../context/ProductContext"
 
@@ -11,8 +12,10 @@ const About = () => {
 
   return (
     <>
+   
     {myName}
     <HeroSection myData={data}/>
+    
     </>
   )
 }

@@ -18,7 +18,7 @@ const HeroSection = ({ myData}) => {
             {/* The world's largest athletic apparel company, Nike is best known for its footwear, apparel, and equipment. Founded in 1964 as Blue Ribbon Sports, the company became Nike in 1971 after the Greek goddess of victory. One of the most valuable brands among sport businesses, Nike employs over 76,000 people worldwide. */}
             {paragraph}
             </p>
-            <NavLink>
+            <NavLink to ="/products">
               <Button>show now</Button>
             </NavLink>
           </div>
@@ -27,7 +27,7 @@ const HeroSection = ({ myData}) => {
             <figure>
               <img
                 src="./Images/store.jpg"
-                // alt="hero-section-photo"
+                 alt="hero-section"
                 className="img-style"
               />
             </figure>
@@ -49,6 +49,8 @@ const Wrapper = styled.section`
   .hero-section-data {
     p {
       margin: 2rem 0;
+      color:white
+    
     }
 
     h1 {
